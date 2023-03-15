@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Html</title>
+
+    <style>
+
+        /* In Order to add Styling or border to Tables */
+        table, th, td {
+            border: 1px solid black;
+            /* Simple Border */
+            border-collapse: collapse;
+            /* Removes Collapse of borders */
+        }
+        th, td {
+            background-color: aqua;
+            /* In order to set a background color */
+        }
+    </style>
+</head>
+<body>
+
+    Tables
+
+    <table style="width: 100%;" >
+        <!-- Sets the width to 100% to its parent i.e body -->
+        <tr> 
+            <!-- This is A tr Means A row -->
+        <th style="width: 60%;">Name</th>
+        <!-- Change width to a th -->
+        <!-- th Means Table Heading -->
+        <th>Roll Number</th>
+        <th>Class</th>
+        </tr>
+
+        <tr style="height: 100px;">
+            <!-- Adds Height to tr -->
+            <td>Muffakir</td>
+            <!-- td Means Table Data -->
+            <!-- We have to arrange data respectively to headers -->
+            <td>01</td>
+            <td>9th</td>
+        </tr>
+
+        <tr>
+            <td>Salman</td>
+            <td>02</td>
+            <td>9th</td>
+        </tr>
+
+        <tr>
+            <td>Faheem</td>
+            <td>03</td>
+            <td>10th</td>
+        </tr>
+    </table>
+<br>
+<br>
+    <!-- Now Vertical Headings -->
+
+    <table border="5" cellpadding="5">
+        <!-- Cellpadding gives padding b/w content -->
+        <tr>
+            <th rowspan="5">Items</th>
+            <!-- rowspan Means Number of Rows to Take -->
+        </tr>
+        <tr>
+            <th colspan="2" >Products</th>
+            <!-- colspan Means Column Span -->
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+
+        <tr>
+            <th>Iphone</th>
+            <td>1000$</td>
+            <td>100 Pieces</td>
+        </tr>
+
+        <tr>
+            <th>I Watch</th>
+            <td>90$</td>
+            <td>102 Pieces</td>
+        </tr>
+
+        <tr>
+            <th>Samsung</th>
+            <td>1000$</td>
+            <td>200 Pieces</td>
+        </tr>
+    </table>
+
+
+    
+</body>
+</html>
